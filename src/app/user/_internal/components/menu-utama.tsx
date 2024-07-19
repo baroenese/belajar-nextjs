@@ -1,3 +1,4 @@
+import Btn from "@/main/components/btn";
 import Link from "next/link";
 
 export default function MenuUtama() {
@@ -11,6 +12,9 @@ export default function MenuUtama() {
             </li>
             <li>
                 <Link href="/user/1234556/detail">Detail</Link>
+            </li>
+            <li>
+                <Btn title="Home" />
             </li>
         </ul>
     )
